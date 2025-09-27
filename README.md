@@ -20,10 +20,21 @@ Endpoints principales
 - GET /api/cars
 
 - POST /api/cars
+  {
+    "car_make": "Honda",
+    "car_model": "civic",
+    "car_year": 2019,
+    "car_price": 18000,
+    "car_status": true
+  }
 
 - GET /api/cars/{id}
 
 - PUT /api/cars/{id}
+      {
+      "car_price": 17500,
+      "car_year": 2020
+      }
 
 - DELETE /api/cars/{id}
 
