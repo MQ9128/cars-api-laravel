@@ -7,6 +7,25 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Cars API - Laravel + Postgres
+
+API RESTful desarrollada en Laravel como parte del taller.
+Incluye CRUD completo para la entidad `cars`.
+
+La API estará disponible en:
+http://localhost:8000/api/cars
+
+Endpoints principales
+
+- GET /api/cars
+
+- POST /api/cars
+
+- GET /api/cars/{id}
+
+- PUT /api/cars/{id}
+
+- DELETE /api/cars/{id}
 
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
